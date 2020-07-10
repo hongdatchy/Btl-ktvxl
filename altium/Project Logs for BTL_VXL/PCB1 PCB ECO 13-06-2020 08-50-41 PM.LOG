@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=12V Pin=JDC-1
+Change Component Comment : Designator=J1 Old Comment=5V New Comment=Connector 3x2
+Change Component Comment : Designator=C4 Old Comment=10uF/25V New Comment=10uF
+Change Component Comment : Designator=C3 Old Comment=22uF/25V New Comment=22uF
+Change Component Comment : Designator=R6 Old Comment=330r New Comment=330
+Change Component Comment : Designator=IC1 Old Comment=ATMEGA16A New Comment=ATMEL 16A
+Change Component Comment : Designator=SW2 Old Comment=BUT+ New Comment=SW
+Change Component Comment : Designator=SW3 Old Comment=BUT- New Comment=SW
+Change Component Comment : Designator=SW4 Old Comment=BUT_REVERSE New Comment=SW
+Change Component Comment : Designator=SW5 Old Comment=BUT_STOP New Comment=SW
+Change Component Comment : Designator=LED1 Old Comment=LED_POWER New Comment=LEDRED
+Change Component Comment : Designator=JP3 Old Comment=PORTB --> New Comment=PORTB
+Change Component Comment : Designator=JP4 Old Comment=PORTC --> New Comment=PORTC
+Change Component Comment : Designator=JP5 Old Comment=PORTD --> New Comment=PORTD
+Change Component Comment : Designator=JP1 Old Comment=STEPPER New Comment=JP5
+Change Component Comment : Designator=SW1 Old Comment=SW_RESET New Comment=SW
+Change Component Comment : Designator=VR1 Old Comment=VAR 10K LCD New Comment=10K
+Added Component: Designator=SW?(SW6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "SW6"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=12V Pin=SW?-2
+Added Pin To Net: NetName=NetJDC_1 Pin=JDC-1
+Added Pin To Net: NetName=NetJDC_1 Pin=SW?-3
+Added Net: Name=NetJDC_1
+Added Member To Class: ClassName=Sheet1 Member=Component SW? SW6A
+Added Room: Name=Sheet1

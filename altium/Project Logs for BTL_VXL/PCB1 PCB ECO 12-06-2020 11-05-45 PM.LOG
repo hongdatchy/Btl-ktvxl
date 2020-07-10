@@ -1,0 +1,171 @@
+Removed Pin From Net: NetName=TANG Pin=IC1-14
+Removed Pin From Net: NetName=GIAM Pin=IC1-15
+Removed Pin From Net: NetName=DAO Pin=IC1-16
+Removed Pin From Net: NetName=DUNG Pin=IC1-17
+Removed Pin From Net: NetName=5V Pin=IC2-9
+Removed Pin From Net: NetName=GND Pin=P1-4
+Removed Pin From Net: NetName=GND Pin=P1-6
+Removed Pin From Net: NetName=GND Pin=SW4-4
+Removed Pin From Net: NetName=GND Pin=SW5-2
+Removed Pin From Net: NetName=GND Pin=SW5-4
+Change Component Comment : Designator=IC1 Old Comment=ATMEL 16L New Comment=ATMEL 16A
+Added Component: Designator=C3(CP1/2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Description 1"; Value = "10 => 220uF/6,3V/10V - 10uF => 100uF/16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 2"; Value = "0,1uF => 33uF/50V - 10uF => 22uF/63V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 3"; Value = "0,47uF => 10uF/100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF/50V"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CP1/2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Description 1"; Value = "10 => 220uF/6,3V/10V - 10uF => 100uF/16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 2"; Value = "0,1uF => 33uF/50V - 10uF => 22uF/63V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 3"; Value = "0,47uF => 10uF/100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF/50V"; VariantName = "[No Variations]"
+Added Component: Designator=H1(HOLE)
+Add component. Clean all parameters for all variants
+Added Component: Designator=H2(HOLE)
+Add component. Clean all parameters for all variants
+Added Component: Designator=H3(HOLE)
+Add component. Clean all parameters for all variants
+Added Component: Designator=H4(HOLE)
+Add component. Clean all parameters for all variants
+Added Component: Designator=IC3(QTO-220)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "LM7808"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "LM7805"; VariantName = "[No Variations]"
+Added Component: Designator=J1(JP3x2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Connector 3x2"; VariantName = "[No Variations]"
+Added Component: Designator=JDC(DC-IN)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Jac DC"; VariantName = "[No Variations]"
+Added Component: Designator=JP2(JP_CAI_8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "JP7"; VariantName = "[No Variations]"
+Added Component: Designator=JP3(JP_CAI_8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "JP7"; VariantName = "[No Variations]"
+Added Component: Designator=JP4(JP_CAI_8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "JP7"; VariantName = "[No Variations]"
+Added Component: Designator=JP5(JP_CAI_8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "JP7"; VariantName = "[No Variations]"
+Added Component: Designator=LED1(led5mm_yellow)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LED 3 ly Single Colour"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=5V Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=IC3-2
+Added Pin To Net: NetName=5V Pin=IC3-3
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-3
+Added Pin To Net: NetName=5V Pin=J1-4
+Added Pin To Net: NetName=5V Pin=J1-5
+Added Pin To Net: NetName=5V Pin=J1-6
+Added Pin To Net: NetName=GND Pin=JDC-2
+Added Pin To Net: NetName=GND Pin=JDC-3
+Added Pin To Net: NetName=IN A1 Pin=JP3-1
+Added Pin To Net: NetName=IN A2 Pin=JP3-2
+Added Pin To Net: NetName=IN B1 Pin=JP3-3
+Added Pin To Net: NetName=IN B2 Pin=JP3-4
+Added Pin To Net: NetName=MOSI Pin=JP3-6
+Added Pin To Net: NetName=MISO Pin=JP3-7
+Added Pin To Net: NetName=SCK Pin=JP3-8
+Added Pin To Net: NetName=EN Pin=JP4-1
+Added Pin To Net: NetName=RW Pin=JP4-2
+Added Pin To Net: NetName=RS Pin=JP4-3
+Added Pin To Net: NetName=D4 Pin=JP4-5
+Added Pin To Net: NetName=D5 Pin=JP4-6
+Added Pin To Net: NetName=D6 Pin=JP4-7
+Added Pin To Net: NetName=D7 Pin=JP4-8
+Added Pin To Net: NetName=5V Pin=LED1-1
+Added Pin To Net: NetName=GND Pin=LED1-2
+Added Pin To Net: NetName=NetSW2_2 Pin=SW3-4
+Added Pin To Net: NetName=NetSW2_2 Pin=SW4-2
+Added Pin To Net: NetName=NetSW2_2 Pin=SW4-4
+Added Pin To Net: NetName=NetSW2_2 Pin=SW5-2
+Added Pin To Net: NetName=NetSW2_2 Pin=SW5-4
+Change Net Name : Old Net Name=DAO New Net Name=NetR3_1
+Change Net Name : Old Net Name=DUNG New Net Name=NetR2_1
+Change Net Name : Old Net Name=GIAM New Net Name=NetR4_1
+Change Net Name : Old Net Name=RST ISP New Net Name=RST
+Change Net Name : Old Net Name=TANG New Net Name=NetR5_1
+Added Pin To Net: NetName=12V Pin=C3-1
+Added Pin To Net: NetName=12V Pin=IC2-9
+Added Pin To Net: NetName=12V Pin=IC3-1
+Added Pin To Net: NetName=12V Pin=JDC-1
+Added Net: Name=12V
+Added Pin To Net: NetName=DAO Pin=IC1-18
+Added Pin To Net: NetName=DAO Pin=JP5-5
+Added Net: Name=DAO
+Added Pin To Net: NetName=DUNG Pin=IC1-19
+Added Pin To Net: NetName=DUNG Pin=JP5-6
+Added Net: Name=DUNG
+Added Pin To Net: NetName=GIAM Pin=IC1-17
+Added Pin To Net: NetName=GIAM Pin=JP5-4
+Added Net: Name=GIAM
+Added Pin To Net: NetName=NetIC1_5 Pin=IC1-5
+Added Pin To Net: NetName=NetIC1_5 Pin=JP3-5
+Added Net: Name=NetIC1_5
+Added Pin To Net: NetName=NetIC1_20 Pin=IC1-20
+Added Pin To Net: NetName=NetIC1_20 Pin=JP5-7
+Added Net: Name=NetIC1_20
+Added Pin To Net: NetName=NetIC1_21 Pin=IC1-21
+Added Pin To Net: NetName=NetIC1_21 Pin=JP5-8
+Added Net: Name=NetIC1_21
+Added Pin To Net: NetName=NetIC1_25 Pin=IC1-25
+Added Pin To Net: NetName=NetIC1_25 Pin=JP4-4
+Added Net: Name=NetIC1_25
+Added Pin To Net: NetName=NetIC1_33 Pin=IC1-33
+Added Pin To Net: NetName=NetIC1_33 Pin=JP2-8
+Added Net: Name=NetIC1_33
+Added Pin To Net: NetName=NetIC1_34 Pin=IC1-34
+Added Pin To Net: NetName=NetIC1_34 Pin=JP2-7
+Added Net: Name=NetIC1_34
+Added Pin To Net: NetName=NetIC1_35 Pin=IC1-35
+Added Pin To Net: NetName=NetIC1_35 Pin=JP2-6
+Added Net: Name=NetIC1_35
+Added Pin To Net: NetName=NetIC1_36 Pin=IC1-36
+Added Pin To Net: NetName=NetIC1_36 Pin=JP2-5
+Added Net: Name=NetIC1_36
+Added Pin To Net: NetName=NetIC1_37 Pin=IC1-37
+Added Pin To Net: NetName=NetIC1_37 Pin=JP2-4
+Added Net: Name=NetIC1_37
+Added Pin To Net: NetName=NetIC1_38 Pin=IC1-38
+Added Pin To Net: NetName=NetIC1_38 Pin=JP2-3
+Added Net: Name=NetIC1_38
+Added Pin To Net: NetName=NetIC1_39 Pin=IC1-39
+Added Pin To Net: NetName=NetIC1_39 Pin=JP2-2
+Added Net: Name=NetIC1_39
+Added Pin To Net: NetName=NetIC1_40 Pin=IC1-40
+Added Pin To Net: NetName=NetIC1_40 Pin=JP2-1
+Added Net: Name=NetIC1_40
+Added Pin To Net: NetName=RX Pin=IC1-14
+Added Pin To Net: NetName=RX Pin=JP5-1
+Added Pin To Net: NetName=RX Pin=P1-6
+Added Net: Name=RX
+Added Pin To Net: NetName=TANG Pin=IC1-16
+Added Pin To Net: NetName=TANG Pin=JP5-3
+Added Net: Name=TANG
+Added Pin To Net: NetName=TX Pin=IC1-15
+Added Pin To Net: NetName=TX Pin=JP5-2
+Added Pin To Net: NetName=TX Pin=P1-4
+Added Net: Name=TX
+Added Member To Class: ClassName=Sheet1 Member=Component C3 22uF
+Added Member To Class: ClassName=Sheet1 Member=Component C4 10uF
+Added Member To Class: ClassName=Sheet1 Member=Component H1 HOLE
+Added Member To Class: ClassName=Sheet1 Member=Component H2 HOLE
+Added Member To Class: ClassName=Sheet1 Member=Component H3 HOLE
+Added Member To Class: ClassName=Sheet1 Member=Component H4 HOLE
+Added Member To Class: ClassName=Sheet1 Member=Component IC3 LM7805
+Added Member To Class: ClassName=Sheet1 Member=Component J1 Connector 3x2
+Added Member To Class: ClassName=Sheet1 Member=Component JDC Jac DC
+Added Member To Class: ClassName=Sheet1 Member=Component JP2 PORTA
+Added Member To Class: ClassName=Sheet1 Member=Component JP3 PORTB
+Added Member To Class: ClassName=Sheet1 Member=Component JP4 PORTC
+Added Member To Class: ClassName=Sheet1 Member=Component JP5 PORTD
+Added Member To Class: ClassName=Sheet1 Member=Component LED1 LEDRED
+Added Room: Name=Sheet1

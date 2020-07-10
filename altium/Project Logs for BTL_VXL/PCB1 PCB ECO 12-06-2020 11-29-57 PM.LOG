@@ -1,0 +1,13 @@
+Added Pin To Net: NetName=NetR3_1 Pin=IC1-16
+Added Pin To Net: NetName=NetR2_1 Pin=IC1-17
+Added Pin To Net: NetName=NetR5_1 Pin=IC1-18
+Added Pin To Net: NetName=NetR4_1 Pin=IC1-19
+Added Pin To Net: NetName=NetR3_1 Pin=JP5-3
+Added Pin To Net: NetName=NetR2_1 Pin=JP5-4
+Added Pin To Net: NetName=NetR5_1 Pin=JP5-5
+Added Pin To Net: NetName=NetR4_1 Pin=JP5-6
+Change Net Name : Old Net Name=NetR2_1 New Net Name=DUNG
+Change Net Name : Old Net Name=NetR3_1 New Net Name=DAO
+Change Net Name : Old Net Name=NetR4_1 New Net Name=GIAM
+Change Net Name : Old Net Name=NetR5_1 New Net Name=TANG
+Added Room: Name=Sheet1

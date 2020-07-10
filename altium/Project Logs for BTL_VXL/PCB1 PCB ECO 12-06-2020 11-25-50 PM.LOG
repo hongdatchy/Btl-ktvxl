@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=IN A1 Pin=IC1-1
+Removed Pin From Net: NetName=IN A2 Pin=IC1-2
+Removed Pin From Net: NetName=IN B1 Pin=IC1-3
+Removed Pin From Net: NetName=IN B2 Pin=IC1-4
+Removed Pin From Net: NetName=IN A1 Pin=JP3-1
+Removed Pin From Net: NetName=IN A2 Pin=JP3-2
+Removed Pin From Net: NetName=IN B1 Pin=JP3-3
+Removed Pin From Net: NetName=IN B2 Pin=JP3-4
+Added Pin To Net: NetName=IN B2 Pin=IC1-1
+Added Pin To Net: NetName=IN B1 Pin=IC1-2
+Added Pin To Net: NetName=IN A2 Pin=IC1-3
+Added Pin To Net: NetName=IN A1 Pin=IC1-4
+Added Pin To Net: NetName=IN B2 Pin=JP3-1
+Added Pin To Net: NetName=IN B1 Pin=JP3-2
+Added Pin To Net: NetName=IN A2 Pin=JP3-3
+Added Pin To Net: NetName=IN A1 Pin=JP3-4
+Added Room: Name=Sheet1

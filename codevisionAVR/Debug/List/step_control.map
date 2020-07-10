@@ -1,0 +1,52 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+speed                                                                             0x01A9       4
+buffer                                                                            0x01AD      16
+f2s_buffer                                                                        0x01BD      16
+counterclockwise_code                                                             0x01CD      16
+clockwise_code                                                                    0x01DD      16
+trunggian                                                                         0x01ED      16
+trunggiantruoc                                                                    0x01FD      16
+_base_y                                                                           0x020D       4
+_lcd_x                                                                            0x0211       1
+_lcd_y                                                                            0x0212       1
+_lcd_maxx                                                                         0x0213       1
+_seed                                                                             0x0214       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+i                                                                                 R4,R5        2
+tt                                                                                R6,R7        2
+tt2                                                                               R8,R9        2
+delayTime                                                                         R10,R11      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+clockwise_rotate                                                                  0x000D1     37
+counterclockwise_rotate                                                           0x000F6     37
+ext_int0_isr                                                                      0x0011B     16
+ext_int1_isr                                                                      0x0012B     88
+main                                                                              0x00183    131
+_lcd_write_nibble_G100                                                            0x00206     20
+_lcd_write_data                                                                   0x0021A     13
+lcd_gotoxy                                                                        0x00227     17
+lcd_clear                                                                         0x00238     14
+lcd_putchar                                                                       0x00246     32
+lcd_puts                                                                          0x00266     17
+lcd_init                                                                          0x00277     47
+put_buff_G101                                                                     0x002A6     64
+_print_G101                                                                       0x002E6    308
+sprintf                                                                           0x0041A     52
+ftoa                                                                              0x0044E    205
+strcpyf                                                                           0x0051B     13
+strlen                                                                            0x00528     12
+strlenf                                                                           0x00534     13
+ftrunc                                                                            0x00541     49
+floor                                                                             0x00572     23

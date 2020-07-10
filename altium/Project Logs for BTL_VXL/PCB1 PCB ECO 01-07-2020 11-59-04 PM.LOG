@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=GND Pin=R8-1
+Removed Pin From Net: NetName=GND Pin=R9-1
+Removed Member From Class: ClassName=Sheet1 Member=R8
+Removed Member From Class: ClassName=Sheet1 Member=R9
+Change Component Comment : Designator=IC1 Old Comment=ATMEGA 16 New Comment=ATMEL 16A
+Change Component Comment : Designator=JACK NGUON Old Comment=Jack_MAIN New Comment=Jac DC
+Change Component Comment : Designator=JACK MOTOR Old Comment=JacK MOTOR New Comment=Jac DC MOTOR
+Change Component Comment : Designator=LED1 Old Comment=LED_MAIN New Comment=LEDRED
+Change Component Comment : Designator=JP3 Old Comment=PORTB--> New Comment=PORTB
+Change Component Comment : Designator=JP4 Old Comment=PORTC--> New Comment=PORTC
+Change Component Comment : Designator=JP5 Old Comment=PORTD--> New Comment=PORTD
+Change Component Comment : Designator=SW6 Old Comment=POWER_MAIN New Comment=POWER
+Change Component Comment : Designator=JP1 Old Comment=RED_HERE New Comment=JP5
+Change Component Comment : Designator=SW1 Old Comment=SW_RESET New Comment=SW
+Change Component Comment : Designator=J1 Old Comment=VCC New Comment=Connector 3x2
+Added Pin To Net: NetName=GND Pin=SW2-2
+Added Pin To Net: NetName=GND Pin=SW3-2
+Added Room: Name=Sheet1

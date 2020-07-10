@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=5V Pin=LCD1-15
+Added Component: Designator=R?(RES_0805)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=5V Pin=R?-1
+Added Pin To Net: NetName=NetLCD1_15 Pin=LCD1-15
+Added Pin To Net: NetName=NetLCD1_15 Pin=R?-2
+Added Net: Name=NetLCD1_15
+Added Member To Class: ClassName=Sheet1 Member=Component R? 1/8W
+Added Room: Name=Sheet1
